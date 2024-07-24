@@ -11,6 +11,54 @@ exports.handler = async function (event, context) {
       { 'name': '超清源(有广告)', 'url': 'https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json', 'type': 'default' },
       { 'name': '普通源(有广告)', 'url': 'https://360zy.com/api.php/provide/vod/at/json', 'type': 'default' },
       { 'name': '超清源(更新稍慢,需代理)', 'url': 'https://api.haiwaikan.com/v1/vod', 'type': 'haiwaikan' }
+    ],
+    'models': [
+      {
+        'id': '@cf/meta/llama-3.1-8b-instruct',
+        'name': 'llama-3.1-8b',
+        'provider': 'Meta'
+      },
+      { 'id': 'spark_model_id', 'name': '星火大模型', 'provider': '讯飞' },
+      {
+        'id': '@cf/qwen/qwen1.5-14b-chat-awq',
+        'name': 'qwen1.5-14b',
+        'provider': '阿里'
+      },
+      {
+        'id': '@cf/google/gemma-7b-it-lora',
+        'name': 'gemma-7b-it',
+        'provider': 'google'
+      },
+      {
+        'id': '@cf/mistral/mistral-7b-instruct-v0.2-lora',
+        'name': 'mistral-7b',
+        'provider': 'mistral'
+      },
+      {
+        'id': '@cf/deepseek-ai/deepseek-math-7b-instruct',
+        'name': 'deepseek-math',
+        'provider': 'deepseek'
+      }
+    ],
+    'imageModels': [
+      {
+        'id': '@cf/lykon/dreamshaper-8-lcm',
+        'name': 'dreamshaper-8-lcm',
+        'provider': 'workers-ai-image',
+        'type': 'text-to-image'
+      },
+      {
+        'id': '@cf/stabilityai/stable-diffusion-xl-base-1.0',
+        'name': 'stable-diffusion-1.0',
+        'provider': 'workers-ai-image',
+        'type': 'text-to-image'
+      },
+      {
+        'id': '@cf/bytedance/stable-diffusion-xl-lightning',
+        'name': 'stable-diffusion-xl',
+        'provider': 'workers-ai-image',
+        'type': 'text-to-image'
+      }
     ]
   };
 
