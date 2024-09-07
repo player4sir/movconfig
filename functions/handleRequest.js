@@ -6,7 +6,7 @@ exports.handler = async function (event, context) {
     },
     "apiList": [
       { 'name': '优质源', 'url': 'https://huawei8.live/api.php/provide/vod/', 'type': 'default' },
-      { 'name': '优质源(优质需代理)', 'url': 'https://json.heimuer.xyz/api.php/provide/vod/', 'type': 'default' },
+      { 'name': '优质源(优质需代理)', 'url': 'https://json02.heimuer.xyz/api.php/provide/vod/', 'type': 'default' },
       { 'name': '优质源(有广告)', 'url': 'https://api.1080zyku.com/inc/apijson.php', 'type': '1080zyku' },
       { 'name': '超清源(有广告)', 'url': 'https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json', 'type': 'default' },
       // { 'name': '普通源(有广告)', 'url': 'https://360zy.com/api.php/provide/vod/at/json', 'type': 'default' },
