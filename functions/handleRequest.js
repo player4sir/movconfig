@@ -23,22 +23,7 @@ exports.handler = async function (event, context) {
         'id': '@cf/qwen/qwen1.5-14b-chat-awq',
         'name': 'qwen1.5-14b',
         'provider': '阿里'
-      },
-      // {
-      //   'id': '@cf/google/gemma-7b-it-lora',
-      //   'name': 'gemma-7b-it',
-      //   'provider': 'google'
-      // },
-      // {
-      //   'id': '@cf/mistral/mistral-7b-instruct-v0.2-lora',
-      //   'name': 'mistral-7b',
-      //   'provider': 'mistral'
-      // },
-      // {
-      //   'id': '@cf/deepseek-ai/deepseek-math-7b-instruct',
-      //   'name': 'deepseek-math',
-      //   'provider': 'deepseek'
-      // }
+      }
     ],
     'imageModels': [
       {
